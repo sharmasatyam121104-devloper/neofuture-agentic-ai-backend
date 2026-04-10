@@ -1,4 +1,5 @@
 import { Document, Types } from "mongoose"
+import { Request } from "express"
 
 export interface UserInterface extends Document {
     _id: Types.ObjectId
@@ -13,4 +14,16 @@ export interface UserInterface extends Document {
     refreshTokenExpiry?: Date
     role: "ADMIN" | "USER"
     status: "ACTIVE" | "BLOCK"
+}
+
+export interface SessionPayload {
+  id: string;
+  email: string;
+  fullname: string;
+  role: "USER" | "ADMIN";
+}
+
+
+export interface SessionInterface extends Request{
+  session? : SessionPayload  
 }

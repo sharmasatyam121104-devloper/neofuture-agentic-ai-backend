@@ -6,6 +6,7 @@ import moment from 'moment'
 import { otpTemplate } from "../../templates/otpTemplate"
 import sendMail from "../../utils/sendEmail"
 import jwt from 'jsonwebtoken'
+import { SessionInterface } from "./user.interface"
 
 export const signup = async(req: Request, res: Response)=>{
     try {
@@ -307,22 +308,22 @@ export const getSession = async (req: Request, res: Response) => {
 }
 
 
-// export const getUserProfile = async (req: SessionInterface, res: Response) => {
-//   try {
+export const getUserProfile = async (req: SessionInterface, res: Response) => {
+  try {
 
-//     const {role, id} = req.session!
+    const {role, id} = req.session!
 
-//     if(role !== "USER"){
-//         throw tryError("Unauthorized access", 403)
-//     }
+    if(role !== "USER"){
+        throw tryError("Unauthorized access", 403)
+    }
 
-//     const userData = await UserModel.findById(id)
+    const userData = await UserModel.findById(id)
 
-//     return userData
+    return userData
 
-//   } catch (error) {
-//     return catchError(error, res)
-//   }
-// }
+  } catch (error) {
+    return catchError(error, res)
+  }
+}
 
 
