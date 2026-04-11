@@ -1,0 +1,6 @@
+orderId,userId,product,price,quantity,status
+ORD101,0.0,Laptop,1.0,0.0,delivered
+ORD102,0.25,Mobile Phone,0.34944237918215615,0.5,pending
+ORD103,0.5,Headphones,0.005576208178438662,1.0,cancelled
+ORD104,0.75,Keyboard,0.0,0.0,shipped
+ORD105,1.0,Monitor,0.20074349442379183,0.0,delivered

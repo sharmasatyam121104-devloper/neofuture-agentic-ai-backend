@@ -1,0 +1,101 @@
+OrderID,CustomerName,Region,Country,Product,Category,Sales,Quantity,Discount,Profit,OrderDate,ShipDate,SalesRep,Channel,PaymentMethod,CustomerSegment,City,State,PostalCode,Phone,Email,ReturnStatus,ShippingCost,Priority,Warehouse,StockLevel,Supplier,Rating,Comments,Currency
+0.0,Priya,North,0,0,Furniture,5266.38,0.0,0.32,0.0,2024-7-2,2024-2-5,Karan,0,NetBanking,0,0,0,0.0,0.0,email0@mail.com,Yes,46.28,0,0,130.0,Supplier2,0.0,0,INR
+1.0,Rahul,East,India,Monitor,Office,9730.01,3.0,0.1,0.0,2024-5-12,2024-6-2,Karan,Online,UPI,0,City5,State9,0.0,9617054132.0,email1@mail.com,No,458.93,Low,WH2,112.0,Supplier4,2.0,Bad,EUR
+2.0,Priya,0,0,Printer,Electronics,1439.61,10.0,0.22,0.0,2024-1-27,2024-10-22,0,0,Card,0,City6,0,130777.0,9807265195.0,0,No,169.2,High,0,0.0,0,0.0,0,USD
+3.0,Rahul,North,0,Monitor,Office,0.0,18.0,0.0,2852.82,2024-2-6,0,Priya,Offline,NetBanking,Home Office,City7,State8,0.0,9555283261.0,email3@mail.com,Yes,371.4,High,WH2,143.0,Supplier1,4.6,0,INR
+4.0,Ankit,0,UK,Monitor,0,3598.23,6.0,0.47,-150.68,2024-10-19,2024-5-19,0,0,Cash,Corporate,City16,State4,469912.0,9963409964.0,0,0,426.12,High,WH4,0.0,Supplier1,0.0,Average,0
+5.0,Vikas,North,USA,Phone,Electronics,1895.35,3.0,0.45,869.01,2024-2-28,2024-12-24,0,0,Cash,0,City5,State5,222527.0,0.0,0,0,144.56,High,WH1,0.0,0,2.7,Bad,0
+6.0,Pooja,0,0,0,Furniture,3275.32,7.0,0.0,212.87,2024-9-19,2024-3-28,0,0,UPI,Corporate,City7,0,0.0,9493933648.0,0,No,289.41,0,WH4,173.0,0,1.2,0,EUR
+7.0,Vikas,East,India,Monitor,Furniture,0.0,4.0,0.0,552.24,2024-1-10,2024-6-4,Sneha,0,NetBanking,0,City3,0,497779.0,9215060437.0,email7@mail.com,Yes,0.0,Medium,WH3,0.0,Supplier5,4.5,Good,0
+8.0,Vikas,0,USA,Printer,0,0.0,16.0,0.0,0.0,2024-6-4,0,Karan,0,Cash,0,0,State5,848369.0,9623710280.0,email8@mail.com,Yes,441.16,0,WH2,368.0,Supplier2,3.8,0,INR
+9.0,Sneha,East,UK,Phone,Electronics,9215.87,0.0,0.03,283.9,2024-11-14,2024-12-26,Pooja,0,NetBanking,0,City16,State4,687086.0,0.0,email9@mail.com,No,125.27,High,WH2,169.0,Supplier7,2.9,Good,EUR
+10.0,Vikas,0,UK,0,0,3134.15,0.0,0.27,249.31,0,2024-9-27,Karan,0,Card,0,City19,State7,862170.0,9957703783.0,0,0,0.0,0,WH2,68.0,Supplier1,1.0,Bad,INR
+11.0,Priya,West,0,Tablet,0,0.0,12.0,0.0,740.65,2024-5-2,0,Sneha,Offline,0,Corporate,City16,0,0.0,9667489104.0,email11@mail.com,No,114.53,0,0,252.0,Supplier7,3.0,0,EUR
+12.0,Neha,North,0,Printer,Office,6473.86,2.0,0.24,1404.22,0,0,Neha,Offline,0,Consumer,City18,State7,670878.0,0.0,email12@mail.com,0,0.0,Low,WH3,500.0,Supplier2,0.0,0,0
+0.0,0,West,0,Tablet,Electronics,6383.39,15.0,0.0,0.0,2024-6-13,2024-2-1,Vikas,0,Card,0,City3,0,944329.0,0.0,email13@mail.com,Yes,0.0,Medium,WH2,307.0,Supplier1,2.0,Good,USD
+14.0,Ankit,South,0,Monitor,Electronics,7589.56,7.0,0.0,-33.17,2024-11-5,2024-5-21,0,Offline,0,Corporate,City12,State7,0.0,9315877535.0,0,0,249.54,Medium,WH5,0.0,0,0.0,0,USD
+15.0,Arjun,West,India,Tablet,0,1872.53,13.0,0.21,2528.37,2024-6-12,2024-1-26,Karan,0,Card,0,City12,0,0.0,9536971749.0,email15@mail.com,No,125.3,Low,0,0.0,Supplier9,3.5,0,USD
+0.0,0,West,USA,Monitor,0,8005.11,17.0,0.41,-341.0,2024-5-16,0,Pooja,Online,Cash,0,City20,0,0.0,0.0,email16@mail.com,No,199.52,High,WH1,405.0,0,0.0,Good,EUR
+17.0,Amit,South,UK,Tablet,0,3400.39,7.0,0.28,1132.32,2024-4-14,2024-11-25,Karan,Offline,Cash,0,City8,State9,695180.0,0.0,email17@mail.com,Yes,401.65,High,WH3,205.0,0,2.5,0,INR
+18.0,Sneha,North,USA,Tablet,Office,7549.89,16.0,0.28,-322.64,2024-11-19,2024-6-27,Pooja,0,UPI,Consumer,0,State8,282160.0,9309941089.0,email18@mail.com,0,16.95,High,0,42.0,Supplier4,2.2,Average,USD
+19.0,Priya,North,Germany,Phone,Office,7096.18,2.0,0.0,2594.94,2024-9-7,2024-11-13,Vikas,0,Card,0,City1,State1,0.0,9540171263.0,email19@mail.com,No,0.0,High,WH5,77.0,Supplier5,0.0,Average,0
+20.0,0,West,UK,0,Office,7661.6,10.0,0.0,214.83,2024-3-14,0,Amit,Offline,UPI,Consumer,City20,0,551892.0,9536714478.0,email20@mail.com,Yes,0.0,Low,WH5,332.0,Supplier2,1.9,0,USD
+21.0,Arjun,North,UK,Printer,0,560.26,17.0,0.08,1989.05,2024-11-10,0,Arjun,Offline,Cash,Consumer,City12,0,161183.0,0.0,0,Yes,199.98,Low,WH2,206.0,Supplier7,0.0,0,INR
+0.0,Neha,0,Germany,Phone,Electronics,2021.09,18.0,0.49,2208.1,2024-3-24,2024-12-26,Priya,0,NetBanking,Home Office,City12,State5,0.0,9283897555.0,0,0,479.93,Medium,WH1,492.0,Supplier1,2.2,0,EUR
+23.0,Arjun,East,UK,Tablet,0,3503.1,11.0,0.38,2801.36,2024-7-28,0,Vikas,Online,Card,Corporate,City7,State8,874760.0,9170211521.0,0,0,0.0,High,WH1,199.0,Supplier10,2.6,Bad,INR
+24.0,Neha,East,0,Monitor,Electronics,1176.71,6.0,0.31,71.48,2024-11-7,2024-12-10,0,Offline,UPI,0,City12,State2,382130.0,9578895216.0,0,Yes,46.95,High,WH4,420.0,0,2.0,0,0
+25.0,Sneha,West,0,Tablet,Office,240.58,0.0,0.0,-76.86,2024-2-27,2024-7-27,0,0,Cash,Consumer,City9,State10,894908.0,9222728161.0,email25@mail.com,0,195.75,0,WH2,113.0,Supplier9,0.0,0,0
+0.0,Ankit,0,0,0,Office,1535.45,1.0,0.23,977.31,0,2024-11-27,Vikas,0,0,Consumer,City1,State1,0.0,0.0,email26@mail.com,Yes,0.0,Low,WH3,195.0,Supplier1,1.0,Good,EUR
+27.0,Karan,West,India,Laptop,Electronics,8366.83,7.0,0.0,1215.29,2024-5-9,2024-2-15,0,0,UPI,Corporate,0,0,697350.0,9120279509.0,email27@mail.com,0,66.67,0,WH1,0.0,Supplier10,1.2,0,EUR
+28.0,Ankit,South,India,Laptop,0,0.0,5.0,0.27,0.0,2024-2-14,2024-12-8,0,0,UPI,Consumer,0,State5,856021.0,9869314106.0,email28@mail.com,0,147.45,0,0,36.0,Supplier10,1.8,Good,0
+29.0,0,0,0,Tablet,0,3364.41,17.0,0.2,15.04,2024-6-25,0,0,0,Card,0,City20,State10,960112.0,9568013160.0,email29@mail.com,Yes,0.0,0,WH2,448.0,Supplier2,0.0,0,INR
+30.0,Vikas,North,0,Phone,Office,0.0,0.0,0.28,1871.82,2024-4-11,0,Arjun,0,Cash,Home Office,City19,State6,107250.0,9837725117.0,0,No,69.73,Low,WH3,71.0,Supplier6,3.8,Bad,0
+31.0,0,West,Germany,0,Furniture,5158.69,17.0,0.0,0.0,0,2024-5-4,Amit,0,UPI,0,City17,0,748531.0,9506442201.0,0,Yes,144.36,0,WH5,243.0,Supplier10,0.0,0,0
+32.0,Priya,0,0,Laptop,Office,896.21,4.0,0.09,425.88,2024-10-16,2024-3-16,Neha,Offline,Card,0,0,State5,119534.0,9605136636.0,email32@mail.com,0,0.0,Low,WH2,373.0,0,0.0,Average,0
+33.0,0,0,0,Tablet,0,7092.78,18.0,0.1,1494.42,2024-8-6,2024-3-20,Rahul,0,Card,0,0,State4,987896.0,0.0,email33@mail.com,0,0.0,Medium,0,0.0,Supplier2,4.1,Average,0
+34.0,Ankit,East,UK,0,0,2984.15,8.0,0.05,-93.57,2024-3-24,0,Neha,0,NetBanking,0,City11,State5,252459.0,9727306056.0,email34@mail.com,0,341.01,Medium,WH4,366.0,Supplier3,0.0,Average,0
+35.0,Rahul,East,USA,0,Furniture,9710.66,5.0,0.19,1815.06,2024-7-10,2024-9-26,Rahul,Offline,0,Corporate,0,State4,0.0,9279810813.0,0,No,443.86,0,WH5,24.0,Supplier1,3.0,Average,0
+36.0,Karan,0,USA,Printer,0,0.0,16.0,0.38,0.0,2024-6-19,2024-1-13,Karan,Offline,NetBanking,Home Office,City13,State6,361980.0,9684760783.0,email36@mail.com,No,406.28,0,WH5,88.0,Supplier10,2.5,0,0
+37.0,Arjun,0,USA,Printer,0,0.0,17.0,0.0,2985.52,2024-2-15,2024-4-14,Arjun,Offline,NetBanking,Home Office,0,State8,962406.0,0.0,email37@mail.com,0,0.0,0,WH4,80.0,Supplier7,3.0,Average,0
+38.0,Ankit,0,India,0,0,0.0,0.0,0.21,0.0,2024-11-4,2024-2-17,Rahul,Online,0,Consumer,0,0,276668.0,9870432411.0,email38@mail.com,0,210.32,0,0,371.0,Supplier3,4.7,Bad,EUR
+39.0,Amit,0,India,Laptop,0,2809.64,11.0,0.41,695.36,2024-2-19,2024-2-9,Priya,0,Cash,Consumer,City10,State9,750826.0,0.0,email39@mail.com,0,18.76,0,WH5,84.0,Supplier6,2.9,0,0
+40.0,Karan,South,0,Laptop,Electronics,0.0,6.0,0.28,0.0,2024-4-13,2024-8-6,0,Online,Cash,0,City1,State6,291463.0,9155306874.0,email40@mail.com,0,477.24,Medium,WH1,115.0,Supplier7,4.0,Bad,EUR
+41.0,Ankit,East,Germany,Phone,Electronics,0.0,0.0,0.46,1089.46,0,2024-10-13,Sneha,0,Cash,0,City10,0,0.0,0.0,0,Yes,0.0,High,WH5,444.0,Supplier8,4.7,Good,0
+42.0,0,0,Germany,Laptop,0,3491.05,1.0,0.41,0.0,0,2024-3-19,Arjun,Online,0,0,City14,State10,372223.0,0.0,email42@mail.com,Yes,0.0,High,WH2,353.0,0,4.5,0,INR
+43.0,Sneha,East,0,Laptop,Furniture,3633.71,13.0,0.0,1925.89,2024-11-26,2024-2-15,Vikas,0,NetBanking,Corporate,City14,State2,712827.0,0.0,email43@mail.com,Yes,219.49,0,WH2,0.0,Supplier3,3.3,0,USD
+44.0,Karan,0,0,Printer,Furniture,3602.41,1.0,0.1,324.2,2024-3-15,2024-7-28,Rahul,0,UPI,0,City4,State6,507347.0,9936796107.0,email44@mail.com,0,482.55,Medium,WH5,426.0,Supplier5,0.0,Average,EUR
+45.0,Ankit,0,0,Printer,0,1694.61,10.0,0.0,2148.93,0,0,Priya,0,0,Corporate,City6,State10,360098.0,9985758979.0,0,0,286.76,Low,WH3,30.0,0,3.8,Good,EUR
+46.0,Ankit,West,0,Monitor,Electronics,0.0,3.0,0.0,0.0,0,2024-11-5,Vikas,Offline,Card,0,0,State6,129585.0,9502445820.0,email46@mail.com,No,0.0,Medium,WH5,348.0,Supplier7,3.8,Good,0
+47.0,Rahul,West,0,0,Electronics,7832.25,0.0,0.5,720.54,2024-2-9,2024-3-9,Vikas,0,NetBanking,Consumer,City6,State9,0.0,0.0,email47@mail.com,0,314.29,0,WH3,167.0,Supplier7,2.5,Good,INR
+48.0,Vikas,0,0,Monitor,Electronics,6428.25,19.0,0.0,-419.46,0,2024-12-26,Neha,0,Cash,0,City11,State5,718895.0,9894884745.0,0,0,160.63,High,WH2,497.0,0,3.4,Good,EUR
+49.0,Amit,0,0,Laptop,Office,5697.59,20.0,0.45,0.0,2024-3-27,2024-6-17,0,Online,NetBanking,0,City14,State1,0.0,9585223399.0,0,Yes,388.34,0,WH5,0.0,Supplier8,4.0,Bad,INR
+50.0,Arjun,East,USA,Monitor,Furniture,4802.97,10.0,0.12,-415.63,0,2024-12-22,Priya,0,Cash,0,City13,State7,151165.0,9237201406.0,email50@mail.com,0,188.71,Medium,WH5,365.0,Supplier3,1.1,0,INR
+51.0,Ankit,0,India,Phone,Electronics,1762.17,2.0,0.07,848.9,2024-7-15,0,Rahul,Offline,Cash,Consumer,City13,State6,683722.0,9697975557.0,email51@mail.com,Yes,333.73,Medium,WH4,338.0,0,0.0,Good,USD
+52.0,Ankit,South,USA,Tablet,0,0.0,3.0,0.0,0.0,0,2024-7-18,Neha,Offline,Cash,Home Office,City18,State2,0.0,0.0,email52@mail.com,0,396.58,Medium,WH5,489.0,Supplier2,3.1,0,EUR
+53.0,Vikas,West,UK,0,0,994.56,9.0,0.0,-126.29,0,2024-5-8,0,Offline,Card,0,City12,State6,0.0,9371765325.0,email53@mail.com,Yes,273.96,Low,WH5,0.0,Supplier7,3.6,0,0
+54.0,Sneha,0,Germany,0,0,4107.87,3.0,0.13,742.04,2024-3-26,0,Amit,0,Cash,Home Office,City10,0,375036.0,9988470793.0,0,0,494.47,0,WH3,29.0,Supplier2,1.4,0,EUR
+55.0,Karan,East,0,Tablet,Office,5406.12,8.0,0.03,851.05,2024-6-20,2024-11-21,Pooja,Offline,UPI,0,City4,State2,192296.0,9595265834.0,email55@mail.com,0,326.96,Medium,WH5,0.0,Supplier4,1.2,0,0
+56.0,Vikas,East,India,Phone,Furniture,0.0,2.0,0.19,670.35,2024-11-25,2024-4-12,Rahul,0,Cash,Consumer,City15,0,501408.0,9275427388.0,0,No,0.0,Medium,WH4,462.0,0,1.2,0,0
+57.0,Vikas,0,0,Printer,Furniture,1377.33,15.0,0.18,0.0,2024-8-28,2024-6-25,Karan,0,NetBanking,0,City10,0,0.0,9458231684.0,0,0,316.45,0,WH1,104.0,Supplier6,4.9,Bad,INR
+58.0,Pooja,East,0,Phone,Furniture,2586.59,8.0,0.2,1607.97,2024-6-21,2024-2-18,Amit,Online,NetBanking,Home Office,City15,State10,922372.0,9557403582.0,email58@mail.com,0,321.61,Low,WH3,23.0,Supplier9,2.1,0,0
+59.0,Sneha,East,India,Laptop,Furniture,8829.72,6.0,0.0,-257.89,0,2024-2-22,Pooja,0,0,Corporate,City8,State7,925128.0,9968051964.0,email59@mail.com,No,139.91,0,WH3,0.0,Supplier9,3.4,Bad,USD
+60.0,Ankit,0,India,Tablet,Office,1382.86,8.0,0.44,0.0,2024-10-12,2024-5-26,Pooja,Online,NetBanking,Home Office,City3,State4,0.0,9599884012.0,0,0,299.0,High,WH2,154.0,Supplier9,4.0,Average,0
+61.0,Priya,East,Germany,Monitor,Electronics,7425.03,7.0,0.34,2452.92,2024-3-17,2024-12-18,0,Offline,Card,Home Office,City12,0,0.0,9443239546.0,0,No,0.0,0,WH1,0.0,Supplier6,0.0,Bad,INR
+62.0,Vikas,South,UK,Tablet,0,568.67,14.0,0.48,974.06,2024-4-22,2024-11-26,Sneha,Online,Cash,Home Office,City4,State9,679036.0,9326966563.0,email62@mail.com,No,0.0,0,WH3,213.0,Supplier8,4.8,Average,0
+63.0,0,0,0,Laptop,Furniture,9994.32,9.0,0.0,0.0,2024-3-11,2024-11-24,Pooja,Offline,0,0,0,State2,0.0,9897003115.0,0,0,161.82,0,WH4,379.0,Supplier3,4.6,Average,0
+64.0,Neha,0,0,Monitor,Electronics,7828.54,7.0,0.18,2930.59,2024-4-7,2024-3-26,Arjun,0,UPI,Home Office,City8,State4,143087.0,9550748475.0,email64@mail.com,No,414.65,Low,WH1,283.0,Supplier8,1.8,Average,0
+65.0,Neha,West,0,Phone,0,3414.49,0.0,0.25,918.04,2024-4-25,2024-3-15,Rahul,0,Card,Corporate,City9,State1,558562.0,9475087734.0,email65@mail.com,No,0.0,High,WH1,215.0,0,3.0,Average,0
+66.0,Sneha,East,0,0,0,893.1,0.0,0.0,1774.96,2024-11-17,0,0,0,Cash,0,City3,State4,0.0,9292850826.0,email66@mail.com,0,498.91,0,WH2,307.0,Supplier6,0.0,Average,INR
+67.0,Priya,East,USA,Phone,Electronics,0.0,15.0,0.49,1361.08,2024-2-15,2024-11-11,Sneha,Offline,Cash,Home Office,City10,State6,994086.0,9968394506.0,email67@mail.com,No,0.0,Medium,WH5,370.0,Supplier7,2.6,Average,0
+68.0,Karan,0,Germany,Laptop,0,9831.11,4.0,0.09,-108.88,2024-1-5,2024-9-3,Pooja,0,NetBanking,0,City2,State2,423570.0,9572051146.0,email68@mail.com,Yes,338.87,0,WH5,0.0,0,1.3,0,EUR
+69.0,Pooja,0,Germany,Phone,0,2755.35,19.0,0.32,2155.99,2024-2-18,2024-11-8,Karan,0,NetBanking,Corporate,City9,0,0.0,9272433265.0,email69@mail.com,Yes,0.0,High,0,238.0,0,1.1,0,USD
+70.0,Amit,0,0,Printer,Furniture,671.38,14.0,0.36,0.0,2024-11-4,2024-11-6,0,Online,Cash,Home Office,City1,State2,0.0,9359157805.0,0,No,375.77,0,WH4,402.0,Supplier2,0.0,Average,0
+71.0,Rahul,West,Germany,Tablet,Furniture,7203.38,8.0,0.41,865.51,2024-3-27,2024-8-14,0,Online,UPI,Consumer,City16,State10,147149.0,0.0,email71@mail.com,No,435.2,Medium,WH5,88.0,Supplier9,1.5,0,USD
+72.0,Ankit,South,0,Printer,Office,9219.22,9.0,0.34,1121.23,0,2024-8-4,Sneha,Online,UPI,Home Office,0,State7,703938.0,0.0,email72@mail.com,No,481.73,0,WH3,0.0,Supplier2,0.0,Average,EUR
+73.0,0,0,Germany,Printer,Electronics,6494.33,6.0,0.0,820.67,2024-7-24,2024-6-2,Ankit,0,NetBanking,Consumer,0,State8,0.0,9469978874.0,0,Yes,353.07,Medium,WH1,471.0,0,2.8,0,INR
+74.0,Arjun,North,India,Tablet,Electronics,4028.16,9.0,0.0,1380.86,2024-8-17,2024-6-7,Rahul,Offline,0,0,City11,State6,664887.0,9668298845.0,email74@mail.com,Yes,0.0,High,0,0.0,Supplier9,3.0,0,EUR
+75.0,Ankit,0,UK,Monitor,Furniture,0.0,9.0,0.16,0.0,2024-8-27,2024-11-16,0,Online,Cash,0,City10,State2,606492.0,9797147757.0,email75@mail.com,0,342.88,0,0,0.0,Supplier10,0.0,0,INR
+0.0,Priya,0,0,Monitor,0,6250.96,9.0,0.09,0.0,2024-1-14,2024-3-26,Vikas,0,UPI,0,City13,0,125714.0,9303523426.0,0,No,0.0,0,WH5,462.0,Supplier1,1.9,0,INR
+77.0,Rahul,0,UK,Printer,Furniture,9227.2,10.0,0.09,1595.9,2024-1-14,0,Ankit,Offline,Cash,0,City7,State6,340774.0,0.0,0,Yes,320.71,Low,0,170.0,Supplier4,0.0,Average,0
+78.0,Vikas,0,India,Laptop,Furniture,340.31,5.0,0.41,0.0,0,2024-10-23,Sneha,Offline,Cash,Consumer,City2,State2,667516.0,9833572373.0,email78@mail.com,0,229.59,Medium,WH4,41.0,Supplier2,3.1,Good,EUR
+79.0,Amit,South,USA,Monitor,Electronics,9162.51,3.0,0.41,2039.82,2024-11-11,2024-2-12,Priya,0,0,Home Office,City1,State3,0.0,9695095637.0,email79@mail.com,0,0.0,Low,WH3,181.0,0,1.4,Average,EUR
+80.0,Rahul,South,UK,Phone,Furniture,3174.15,13.0,0.34,0.0,2024-6-26,2024-1-8,Sneha,Online,0,Corporate,City8,State7,722745.0,9833999388.0,0,No,0.0,Low,WH2,191.0,Supplier2,0.0,0,EUR
+81.0,Priya,East,India,Monitor,0,9531.98,4.0,0.24,0.0,2024-11-16,0,Vikas,0,NetBanking,0,0,State7,557533.0,9310549574.0,email81@mail.com,0,74.39,0,0,0.0,Supplier9,1.7,0,0
+82.0,Amit,South,India,Laptop,Furniture,7284.32,17.0,0.0,2272.89,2024-5-26,0,Rahul,Online,Cash,Home Office,City10,State3,903925.0,9872801514.0,0,Yes,356.89,0,0,0.0,0,0.0,Good,INR
+83.0,0,0,USA,Laptop,Electronics,0.0,1.0,0.15,0.0,0,2024-12-2,Pooja,Offline,0,0,City5,State2,945866.0,9754494347.0,email83@mail.com,0,0.0,Low,WH1,67.0,0,1.0,0,USD
+84.0,Karan,East,0,Phone,Electronics,0.0,7.0,0.0,2451.46,2024-4-26,2024-4-18,Amit,Offline,0,Home Office,City6,State5,512319.0,9244833060.0,email84@mail.com,Yes,174.19,High,WH1,0.0,Supplier4,2.5,0,0
+85.0,Pooja,North,USA,Printer,0,2126.57,13.0,0.44,2131.85,2024-8-21,0,Karan,0,Card,Home Office,City15,State2,252229.0,9492188942.0,email85@mail.com,0,149.65,0,0,329.0,Supplier1,4.2,0,INR
+86.0,Amit,0,0,Monitor,Furniture,2773.64,7.0,0.03,2166.7,2024-9-5,2024-5-18,Amit,0,Card,Home Office,0,State3,350841.0,9915702039.0,0,0,442.97,Low,0,90.0,0,0.0,Average,0
+87.0,Neha,0,UK,Printer,Electronics,0.0,17.0,0.04,2272.33,2024-2-21,2024-6-11,Arjun,0,0,Home Office,City9,State5,814964.0,9106920247.0,email87@mail.com,Yes,0.0,0,WH3,0.0,Supplier2,0.0,Bad,EUR
+88.0,Rahul,0,0,Tablet,Electronics,8591.65,2.0,0.11,2985.35,2024-2-25,0,Sneha,0,Cash,0,City13,State5,971818.0,9354858540.0,email88@mail.com,Yes,466.7,0,WH5,470.0,Supplier8,1.0,0,0
+89.0,Neha,North,UK,Printer,Furniture,2873.88,8.0,0.24,767.84,2024-2-10,2024-3-2,Rahul,Offline,UPI,0,City6,State6,642673.0,9402452331.0,0,Yes,442.61,Low,WH1,210.0,0,0.0,Bad,USD
+90.0,Pooja,North,0,0,Office,4336.13,1.0,0.0,800.91,2024-8-13,0,Neha,0,Cash,0,City12,State10,371525.0,0.0,email90@mail.com,No,394.26,0,WH3,0.0,Supplier8,3.8,0,0
+91.0,Arjun,0,0,Monitor,Electronics,7452.46,12.0,0.34,428.78,2024-6-24,2024-6-10,Vikas,Offline,Card,Consumer,City11,State6,507295.0,9582696112.0,0,No,412.31,0,WH3,0.0,Supplier4,1.5,0,0
+92.0,0,North,USA,Phone,Furniture,0.0,2.0,0.15,1825.55,0,2024-4-1,Rahul,Offline,Cash,0,City13,State9,745125.0,0.0,email92@mail.com,0,185.45,0,WH3,394.0,Supplier10,2.5,0,EUR
+93.0,Karan,0,0,0,Furniture,7366.99,0.0,0.0,1282.63,2024-5-23,2024-1-12,Ankit,0,UPI,Home Office,City20,State4,0.0,0.0,email93@mail.com,Yes,181.54,0,WH4,393.0,Supplier2,0.0,Good,USD
+94.0,Rahul,North,0,Printer,0,0.0,14.0,0.0,2059.06,2024-7-12,2024-2-18,Amit,Offline,0,Home Office,City6,State9,0.0,9656197734.0,email94@mail.com,0,0.0,0,WH4,0.0,Supplier7,2.7,0,0
+95.0,Karan,North,UK,0,0,6988.73,4.0,0.2,-455.17,2024-7-16,2024-4-23,Sneha,Offline,UPI,Consumer,0,State6,0.0,9108113903.0,email95@mail.com,No,283.14,0,WH3,59.0,0,3.1,0,INR
+96.0,Sneha,East,India,Phone,0,1920.84,4.0,0.0,197.5,2024-2-8,2024-7-8,0,Online,Card,0,City16,State6,202929.0,9272331239.0,0,0,374.43,High,WH1,150.0,Supplier1,0.0,Bad,0
+97.0,Rahul,North,Germany,Printer,Electronics,0.0,10.0,0.42,855.24,2024-7-24,2024-6-22,0,Offline,Card,0,City14,State9,0.0,9993394883.0,email97@mail.com,Yes,481.32,Low,WH4,0.0,Supplier1,0.0,0,USD
+98.0,Ankit,West,USA,0,Furniture,0.0,13.0,0.1,2549.66,2024-5-1,2024-5-5,Priya,Offline,NetBanking,0,0,State1,632624.0,9556890683.0,email98@mail.com,Yes,376.83,0,WH4,0.0,Supplier9,3.7,0,0
+99.0,0,South,India,Tablet,Office,6817.12,10.0,0.0,0.0,2024-4-18,2024-1-9,Pooja,0,Cash,Home Office,City4,State8,261263.0,9528682675.0,email99@mail.com,0,0.0,0,WH4,64.0,Supplier1,0.0,Bad,INR

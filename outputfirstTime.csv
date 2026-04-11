@@ -1,0 +1,6 @@
+userId,price,quantity,orderId_ORD101,orderId_ORD102,orderId_ORD103,orderId_ORD104,orderId_ORD105,product_Headphones,product_Keyboard,product_Laptop,product_Mobile Phone,product_Monitor,status_cancelled,status_delivered,status_pending,status_shipped
+0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0
+0.25,0.34944237918215615,0.5,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+0.5,0.0055762081784386614,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+0.75,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+1.0,0.20074349442379183,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0

@@ -7,6 +7,7 @@ import corsConfig from "./utils/corsConfig"
 import UserRouter from "./modules/user/user.routes"
 import ChatRouter from "./modules/chat/chats.routes"
 import MessageRouter from "./modules/message/message.routes"
+import N8NRouter from "./modules/n8n/n8n.routes"
 
 
 const app = express()
@@ -21,6 +22,7 @@ app.use(cookieParser())
 app.use('/user', UserRouter)
 app.use('/chat', ChatRouter)
 app.use('/message', MessageRouter)
+app.use('/n8n', N8NRouter)
 
 app.get("/", (req, res) => {
   res.send("NeoFuture API Running")

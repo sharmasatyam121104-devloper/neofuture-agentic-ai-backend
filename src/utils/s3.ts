@@ -56,3 +56,42 @@ export const getDownloadSignedUrl = async (key: string) => {
     downloadUrl: url,
   };
 };
+
+
+export const getFileFromS3 = async (key: string) => {
+  const command = new GetObjectCommand({
+    Bucket: BUCKET,
+    Key: key,
+  });
+
+  const response = await s3.send(command);
+
+  const streamToBuffer = async (stream: any) =>
+    new Promise<Buffer>((resolve, reject) => {
+      const chunks: any[] = [];
+      stream.on("data", (chunk: any) => chunks.push(chunk));
+      stream.on("error", reject);
+      stream.on("end", () => resolve(Buffer.concat(chunks)));
+    });
+
+  const fileBuffer = await streamToBuffer(response.Body);
+
+  return fileBuffer;
+};
+
+
+export const uploadFileToS3 = async (key: string,body: Buffer | string,contentType: string = "text/csv") => {
+  const command = new PutObjectCommand({
+    Bucket: BUCKET,
+    Key: key,
+    Body: body,
+    ContentType: contentType,
+  });
+
+  await s3.send(command);
+
+  return {
+    fileUrl: `https://${BUCKET}.s3.amazonaws.com/${key}`,
+    key,
+  };
+};

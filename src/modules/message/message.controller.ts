@@ -86,6 +86,7 @@ export const sendMessageInChat = async (req: SessionInterface, res: Response) =>
     return res.json({
       message: "Message updated successfully",
       data: message,
+      chatId
     });
   } 
   catch (error) {
