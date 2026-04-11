@@ -90,7 +90,7 @@ export const processN8nJob = async (
 
   // ---------------- SAVE FILE TO S3 ----------------
   const messageId = new mongoose.Types.ObjectId().toString();
-  const outputKey = `${type}/${chatId}/${messageId}.csv`;
+  const outputKey = `processed/${chatId}/${messageId}.csv`;
 
   const uploadResult = await uploadFileToS3(
     outputKey,
