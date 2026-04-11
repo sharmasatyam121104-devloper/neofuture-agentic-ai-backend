@@ -1,13 +1,20 @@
 import express from "express";
-import { dataPreProcessing } from "./n8n.controller";
 import { AuthMiddleware } from "../user/user.middleware";
+import {
+  dataPreProcessing,
+  modelGeneration,
+  dataVisualization,
+  aiSuggestion,
+} from "./n8n.controller";
 
-const N8NRouter = express.Router();
+const router = express.Router();
 
-//  protect all routes
-N8NRouter.use(AuthMiddleware);
+router.use(AuthMiddleware);
 
-//  routes
-N8NRouter.post("/data-preprocessing", dataPreProcessing);
+// ---------------- ROUTES ----------------
+router.post("/data-processing", dataPreProcessing);
+router.post("/model-generation", modelGeneration);
+router.post("/data-visualization", dataVisualization);
+router.post("/ai-suggestion", aiSuggestion);
 
-export default N8NRouter;
+export default router;

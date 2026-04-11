@@ -3,7 +3,7 @@ import ChatModel from "../chat/chat.model";
 import { SessionInterface } from "../user/user.interface";
 import { Response } from "express";
 import MessageModel from "./message.model";
-import { getUploadSignedUrl } from "../../utils/s3";
+import { getDownloadSignedUrl, getUploadSignedUrl } from "../../utils/s3";
 
 export const getUploadSignedUrlForSendMessageInChat = async (req: SessionInterface,res: Response) => {
   try {
@@ -145,3 +145,48 @@ export const deleteMessageById = async (req: SessionInterface, res: Response) =>
     return catchError(error, res);
   }
 };
+
+export const downlodCsvFile = async (req: SessionInterface, res: Response) => {
+    try {
+        const userId = req.session?.id;
+        const { messageId } = req.params;
+
+        if (!messageId) {
+        throw tryError("MessageId is required.", 403);
+        }
+
+        // 1. Find message
+        const message = await MessageModel.findById(messageId);
+
+        if (!message) {
+        throw tryError("Message not found.", 404);
+        }
+
+        const chatId = message.chatId;
+
+        // 2. Find chat
+        const chat = await ChatModel.findById(chatId);
+
+        if (!chat) {
+        throw tryError("Chat not found.", 404);
+        }
+
+        // 3. Authorization check
+        if (chat.userId.toString() !== userId?.toString()) {
+        throw tryError(
+                "Unauthorized Access. You are not owner of this chat.",
+                403
+            );
+        }
+
+        const fileUrl = message?.file?.fileUrl
+        const key = fileUrl.split(".amazonaws.com/")[1];
+
+        const downloadUrl = await getDownloadSignedUrl(key)
+
+        return res.json(downloadUrl)
+    } 
+    catch (error) {
+        return catchError(error, res)    
+    }
+}
